@@ -108,6 +108,7 @@ Here is a breakdown of what the formula does:
 For airplane crash and fatalities data, we want the start date to reflect the earliest date that we have in the data: September 17, 1908. Additionally, you want to see date for the 101 years, including dates in the future.This approach ensures that, as new airplane crash and fatalities data flows in you won't have to re-create this table.Also the duration represents data point for everyday.
 
 The date table was named `Calender` and the flight column was renamed to `Flight ID` for clarity.
+
 ---
 
 ## Data Modeling
