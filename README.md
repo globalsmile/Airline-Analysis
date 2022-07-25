@@ -168,7 +168,7 @@ see Figure 3 below:
 See Figure 4 below:
 | Figure 4 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180877661-dc5d11d3-82ef-4065-b4e6-a6b2b15db3e6.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/180882778-6b87c2f1-975f-4730-adb2-15609ddf3883.png) |
 
 PJSC Aeroflot – Russian Airlines, commonly known as Aeroflot, is the flag carrier and largest airline of the Russian Federation. The carrier is an open joint stock company that operates domestic and international passenger and services, mainly from its hub at Sheremetyevo International Airport. (c) [Wikipedia](https://en.wikipedia.org/wiki/Aeroflot)
 
@@ -177,7 +177,7 @@ Also the data point for fatalities on ground for the year 2001 appears to look l
 See Figure 5 below:
 | Figure 5 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180872121-1ae4458b-db2b-4a59-ab79-b1eb19976202.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/180882364-a55df9fc-f344-43d1-9779-ae38bf74cb8c.png) |
 
 From our 'Annual Analysis' for the year 2001 it is estimated that they were a total of:
 
@@ -197,7 +197,7 @@ Generally for the dataset, they were a total of `5268 Accidents` resulting in ab
 
 # Insight
 
-Even so the number of accidents and fatalities is increasing, the number of flights is also increasing. And we could actually see that the ratio of fatalities/total amount of passengers trending down (for 2000s) see figure 7 below. However we can not make decisions about any Operator like "which airline is much safer to flight with" without knowledge of total amount flights. If Aeroflot has the largest number of accident doesn't mean that it is the worse to fly with because it might have the largest amount of flights.
+Even so the number of accidents and fatalities is increasing, the number of flights is also increasing. And we could actually see that the ratio of aicraft accidents/total amount of passengers trending down (for 2000s) see figure 7 below. However we can not make decisions about any Operator like "which airline is much safer to flight with" without knowledge of total amount flights. If Aeroflot has the largest number of accident doesn't mean that it is the worse to fly with because it might have the largest amount of flights.
 
 | Figure 7 |
 | ----------- |
