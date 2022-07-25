@@ -28,17 +28,13 @@ So let's see...
 ---
 
 # Problem Statement
+
 The main objective of this project is to perform an exploratory data analysis on the dataset and visualize the data to find some weird or interesting insights.
-However we will also try to find answers to the following questions:
-- How many planes crashed yearly?
-- How many people were aboard?
-- what is the number of crashes by operator?
-- what is the number of crashes by the type of aircraft?
-- How is the airplane crash geographically distributed?
 
 ---
 
 # Data Sourcing
+
 This Dataset was created on Kaggle in September 2016 but the original version was hosted by Open Data by Socrata at:
 https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from `1908-09-17 to 2009-06-08`
 
@@ -48,6 +44,7 @@ The dataset contains `13 columns and 5268 rows` of data.
 ---
 
 # Data Transformation
+
 For the purpose of this analysis, Microsoft Power BI was used to transform the data.
 
 Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
@@ -118,6 +115,7 @@ The date table was named `Calender` and the flight column was renamed to `Flight
 ---
 
 # Data Modeling
+
 After the data was cleaned and transformed, it was ready to be modeled.
 - In the `Calender` table, `calculated columns` was used to extract the `Day`,` Month`, `Quarter`, `Year` columns from the table.
 
@@ -170,9 +168,30 @@ see Figure 3 below:
 See Figure 4 below:
 | Figure 4 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/180868606-2e646efe-418c-41bb-982e-3e1268f1d761.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/180877661-dc5d11d3-82ef-4065-b4e6-a6b2b15db3e6.png) |
 
 PJSC Aeroflot – Russian Airlines, commonly known as Aeroflot, is the flag carrier and largest airline of the Russian Federation. The carrier is an open joint stock company that operates domestic and international passenger and services, mainly from its hub at Sheremetyevo International Airport. (c) [Wikipedia](https://en.wikipedia.org/wiki/Aeroflot)
+
+Also the data point for fatalities on ground for the year 2001 appears to look like an outlier, however the 9/11 attacks against targets in the United States contibuted to a massive rise in total fatalities (on ground) for the year.
+
+See Figure 5 below:
+| Figure 5 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180872121-1ae4458b-db2b-4a59-ab79-b1eb19976202.png) |
+
+From our 'Annual Analysis' for the year 2001 it is estimated that they were a total of:
+
+`60 accidents`, `7752 fatalities`, `2111 people killed abord`, `5641 people killed on the ground`.
+See Figure 6 below:
+| Figure 6 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180875463-3b6f81c7-242f-433d-9daf-01d9d66f1559.png) |
+
+It was also found that, about `2880 people were killed on ground` from the 9/11 attacks against target in the USA.
+
+Generally for the dataset, they were a total of `5268 Accidents` resulting in about `153K Fatalities` spanning a period of `102` years.
+
+
 
 
 
