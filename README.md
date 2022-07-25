@@ -128,3 +128,4 @@ For `Day`, we used the DAX expression `YEAR(Calender[Dates])`
 - To reference the date and time in the `Airplane_Crashes_and_Fatalities_since_1908` table more accurately, a `one-to-many (*:1) relationship` was created between the 
 `Airplane_Crashes_and_Fatalities_since_1908` and the `Calender` table using the `Dates` column in each of the tables.
 
+# Data Visualization
