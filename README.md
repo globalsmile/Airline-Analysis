@@ -43,13 +43,25 @@ The dataset contains `13 columns and 5268 rows` of data.
 
 ## Data Transformation
 For the purpose of this analysis, Microsoft Power BI was used to transform the data.
+
 Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
 
 In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
 
-The table below shows the name of the columns and their description:
-| Syntax | Description |
+The table below shows the column names and their description:
+| Column Name | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Date | Represents the date of the accident |
+| Time | Represents the time(local) of the accident in 24hrs and in the format hh:mm |
+| Location | Represents the location of the accident |
+| Operator | Represents the airline or the operator of the aircraft |
+| Flight | Represents the flight ID assigned by the aircraft operator |
+| Route | Represents the  complete or partial route flown prior to the accident |
+| Type | Represents the aircraft type |
+| Registration | Represents ICAO registration of the aircraft |
+| Cn/Ln | Represents the construction or serial number/line or fuselage number |
+| Aboard | Represents the total number of people aboard the plane |
+| Fatalities | Represents the number of fatalities |
+| Ground | Represnts the total number of people killed on the ground by the aircraft |
+| Summary | Contains brief description of the accident and cause if known |
 
