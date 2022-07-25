@@ -6,14 +6,14 @@
 
 ## Table of Contents
 
-- [Introduction](https://github.com/globalsmile/Airline-Analysis#introduction)
-- [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement)
-- [Data Sourcing](https://github.com/globalsmile/Airline-Analysis#Data-Sourcing)
-- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Data-Transformation)
-- [Data Modeling](https://github.com/globalsmile/Airline-Analysis#Data-Modeling)
-- [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
-- [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
-- [Insights](https://github.com/globalsmile/Airline-Analysis#Insights)
+- [Introduction](https://github.com/globalsmile/Airline-Analysis##introduction)
+- [Problem Statement](https://github.com/globalsmile/Airline-Analysis##Problem-Statement)
+- [Data Sourcing](https://github.com/globalsmile/Airline-Analysis##Data-Sourcing)
+- [Data Transformation](https://github.com/globalsmile/Airline-Analysis##Data-Transformation)
+- [Data Modeling](https://github.com/globalsmile/Airline-Analysis##Data-Modeling)
+- [Data Visualization](https://github.com/globalsmile/Airline-Analysis##Data-Visualization)
+- [Data Analysis](https://github.com/globalsmile/Airline-Analysis##Data-Analysis)
+- [Insights](https://github.com/globalsmile/Airline-Analysis##Insights)
 
 ---
 
