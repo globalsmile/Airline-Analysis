@@ -77,18 +77,18 @@ The table below shows the number of missing values in each of the columns:
 | Column Name | No. of missing values |
 | ----------- | ----------- |
 | Date | 0 |
-| Time | 1539 |
-| Location | 5 |
-| Operator | 10 |
-| Flight | 3663 |
-| Route | 762 |
-| Type | 14 |
-| Registration | 271 |
-| Cn/Ln | 663 |
+| Time | 684 |
+| Location | 8 |
+| Operator | 12 |
+| Flight | 897 |
+| Route | 531 |
+| Type | 19 |
+| Registration | 155 |
+| Cn/Ln | 463 |
 | Aboard | 0 |
 | Fatalities | 0 |
 | Ground | 0 |
-| Summary | 59 |
+| Summary | 243 |
 
 - To account for the missing values, each column containing a missing value had to be manipulated.
 
