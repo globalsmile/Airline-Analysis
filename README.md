@@ -36,12 +36,20 @@ However we will also try to find answers to the following questions:
 
 ## Data Sourcing
 This Dataset was created on Kaggle in September 2016 but the original version was hosted by Open Data by Socrata at:
-https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from 1908-09-17 to 2009-06-08.
+https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from `1908-09-17 to 2009-06-08`
 
 Data:  Data can be accessed from this link  https://aka.ms/30DLDATGitHubRepo Locate project folder and download the csv file.
-The dataset contains 5268 rows and 13 colums.
+The dataset contains `13 columns and 5268 rows` of data.
 
 ## Data Transformation
+For the purpose of this analysis, Microsoft Power BI was used to transform the data.
+Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
 
+In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
 
+The table below shows the name of the columns and their description:
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
