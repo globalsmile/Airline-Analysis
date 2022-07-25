@@ -98,4 +98,13 @@ The table below shows each of the column with a missing value and the kind of ma
 | Cn/Ln | Replaced the missing values with 'unknown' |
 | Summary | Replaced the missing values with 'unknown' |
 
+After the columns with missing values were manipulated, each column in the table `Airplane_Crashes_and_Fatalities_since_1908`  was then validated to have the correct data type to ensure data accuracy.
+
+- Given that we have numerous dates and time in the dataset, a date table was needed so as to reference the date and the time more accurately.
+A date table was created with the M-formula `List.Dates(#date(1908,09,17), 365*101, #duration(1,0,0,0)`
+
+Here is a breakdown of what the formula does:
+
+For airplane crash and fatalities data, we want the start date to reflect the earliest date that we have in the data: September 17, 1908. Additionally, you want to see date for the 101 years, including dates in the future.This approach ensures that, as new airplane crash and fatalities data flows in you won't have to re-create this table.Also the duration represents data point for everyday.
+
 
