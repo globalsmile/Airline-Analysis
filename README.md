@@ -6,8 +6,8 @@
 
 ## Table of Contents
 
-- [Introduction](https://github.com/globalsmile/Airline-Analysis##introduction)
-- [Problem Statement](https://github.com/globalsmile/Airline-Analysis##Problem-Statement)
+- [Introduction](https://github.com/globalsmile/Airline-Analysis#introduction)
+- [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement)
 - [Data Sourcing](https://github.com/globalsmile/Airline-Analysis##Data-Sourcing)
 - [Data Transformation](https://github.com/globalsmile/Airline-Analysis##Data-Transformation)
 - [Data Modeling](https://github.com/globalsmile/Airline-Analysis##Data-Modeling)
@@ -17,7 +17,7 @@
 
 ---
 
-## Introduction
+# Introduction
 According to [WikiHow](https://www.wikihow.com/Survive-a-Plane-Crash):
 
 The chances of dying on a commercial airline flight are actually as low as 9 million to 1. That said, a lot can go wrong at 33,000 feet (10,058.4 m) above the ground, and if you’re unlucky enough to be aboard when something does, the decisions you make could mean the difference between life and death. Almost 95% of airplane crashes have survivors, so even if the worst does happen, your odds aren't as bad as you might think
@@ -25,7 +25,7 @@ The chances of dying on a commercial airline flight are actually as low as 9 mil
 So let's see...
 
 ---
-## Problem Statement
+# Problem Statement
 The main objective of this project is to perform an exploratory data analysis on the dataset and visualize the data to find some weird or interesting insights.
 However we will also try to find answers to the following questions:
 - How many planes crashed yearly?
