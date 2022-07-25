@@ -158,4 +158,5 @@ Data visualization for the dataset was done in two folds:
 
 # Data Analysis
 
+For the `Annual Analysis` a measure was created using the DAX `Total Fatalities = SUM(Airplane_Crashes_and_Fatalities_since_1908[Aboard] + SUM(Airplane_Crashes_and_Fatalities_since_1908[Ground])` to aggregrate the total number of fatalities for each year.
 
