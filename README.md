@@ -1,4 +1,5 @@
 # Airplane Crashes and Fatalities Analysis(1908 - 2009)
+
 <img align="right" alt="Data Analytics" width="1000" height = "400" src="https://user-images.githubusercontent.com/106287208/180620178-7696afd1-82f1-48fb-81e4-6e87db068d07.jpg">
 
 ---
@@ -141,16 +142,20 @@ Data visualization for the dataset was done in two folds:
 - `Annual Analysis`: Shows the number of accidents, fatalities, location, etc. for a previously selected year
 - `Data Summary 1908 - 2009`: Shows all the data from the whole period, including the total number of accidents and total number of fatalities by year, operator and aircraft type.
 
-Figure 1 shows visualizations from `Annual Analysis`
+- Figure 1 shows visualizations from `Annual Analysis`
 
 | Figure 1 |
 | ----------- |
 | ![image](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png) |
 
-Figure 2 shows visualizations from `Data Summary 1908 - 2009`
+- Figure 2 shows visualizations from `Data Summary 1908 - 2009`
 
 | Figure 2 |
 | ----------- |
 | ![image](https://user-images.githubusercontent.com/106287208/180833512-c12a281c-9276-4943-8337-981f84aa4b58.png) |
+
+---
+
+# Data Analysis
 
 
