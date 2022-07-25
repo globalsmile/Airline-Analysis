@@ -4,7 +4,7 @@
 ---
 
 
-## Table of Contents
+# Table of Contents
 
 - [Introduction](https://github.com/globalsmile/Airline-Analysis#introduction)
 - [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement)
@@ -25,6 +25,7 @@ The chances of dying on a commercial airline flight are actually as low as 9 mil
 So let's see...
 
 ---
+
 # Problem Statement
 The main objective of this project is to perform an exploratory data analysis on the dataset and visualize the data to find some weird or interesting insights.
 However we will also try to find answers to the following questions:
@@ -34,12 +35,16 @@ However we will also try to find answers to the following questions:
 - what is the number of crashes by the type of aircraft?
 - How is the airplane crash geographically distributed?
 
+---
+
 # Data Sourcing
 This Dataset was created on Kaggle in September 2016 but the original version was hosted by Open Data by Socrata at:
 https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from `1908-09-17 to 2009-06-08`
 
 Data:  Data can be accessed from this link  https://aka.ms/30DLDATGitHubRepo Locate project folder and download the csv file.
 The dataset contains `13 columns and 5268 rows` of data.
+
+---
 
 # Data Transformation
 For the purpose of this analysis, Microsoft Power BI was used to transform the data.
@@ -128,4 +133,24 @@ For `Day`, we used the DAX expression `YEAR(Calender[Dates])`
 - To reference the date and time in the `Airplane_Crashes_and_Fatalities_since_1908` table more accurately, a `one-to-many (*:1) relationship` was created between the 
 `Airplane_Crashes_and_Fatalities_since_1908` and the `Calender` table using the `Dates` column in each of the tables.
 
+---
+
 # Data Visualization
+
+Data visualization for the dataset was done in two folds:
+- `Annual Analysis`: Shows the number of accidents, fatalities, location, etc. for a previously selected year
+- `Data Summary 1908 - 2009`: Shows all the data from the whole period, including the total number of accidents and total number of fatalities by year, operator and aircraft type.
+
+Figure 1 shows visualizations from `Annual Analysis`
+
+| Figure 1 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png) |
+
+Figure 2 shows visualizations from `Data Summary 1908 - 2009`
+
+| Figure 2 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180833512-c12a281c-9276-4943-8337-981f84aa4b58.png) |
+
+
