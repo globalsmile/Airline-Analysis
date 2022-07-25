@@ -105,11 +105,14 @@ A date table was created with the M-formula `List.Dates(#date(1908,09,17), 365*1
 
 Here is a breakdown of what the formula does:
 
-For airplane crash and fatalities data, we want the start date to reflect the earliest date that we have in the data: September 17, 1908. Additionally, you want to see date for the 101 years, including dates in the future.This approach ensures that, as new airplane crash and fatalities data flows in you won't have to re-create this table.Also the duration represents data point for everyday.
+For `Airplane_Crashes_and_Fatalities_since_1908` data, we want the start date to reflect the earliest date that we have in the data: September 17, 1908. Additionally, you want to see date for the 101 years(time frame for our anlysis), including dates in the future.This approach ensures that, as new airplane crash and fatalities data flows in you won't have to re-create this table.Also the duration represents data point for everyday.
 
 The date table was named `Calender` and the flight column was renamed to `Flight ID` for clarity.
 
 ---
 
 # Data Modeling
-
+After the data was cleaned and transformed, it was ready to be modeled.
+- In the `Calender` table, `calculated columns` was used to extract the `Day`,` Month`, `Quarter`, `Year` columns from the table.
+For `Day', we used the DAX expression `FORMAT(Calender[Dates],'DDDD')`
+- An hierarchy was created in the date table: Day, Month, Quarter, Year
