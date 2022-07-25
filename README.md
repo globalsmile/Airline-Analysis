@@ -14,7 +14,7 @@
 - [Data Modeling](https://github.com/globalsmile/Airline-Analysis#Data-Modeling)
 - [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
 - [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
-- [Insights](https://github.com/globalsmile/Airline-Analysis#Insights)
+- [Insights](https://github.com/globalsmile/Airline-Analysis#Insight)
 
 ---
 
@@ -163,7 +163,7 @@ see Figure 3 below:
 | ----------- |
 | ![image](https://user-images.githubusercontent.com/106287208/180865767-0c9d6bf9-6032-4ec0-a932-39544596880c.png) |
 
-- From [Figure 2](https://user-images.githubusercontent.com/106287208/180864176-aee4c729-d6de-41e8-b2ca-68192671476c.png), It looks like Aeroflot has the most number of accident for all the time.
+- From [Figure 2](https://user-images.githubusercontent.com/106287208/180864176-aee4c729-d6de-41e8-b2ca-68192671476c.png), It looks like Aeroflot has the highest number of accidents for all the time specified by the dataset.
 
 See Figure 4 below:
 | Figure 4 |
@@ -188,13 +188,22 @@ See Figure 6 below:
 | ![image](https://user-images.githubusercontent.com/106287208/180875463-3b6f81c7-242f-433d-9daf-01d9d66f1559.png) |
 
 It was also found that, about `2880 people were killed on ground` from the 9/11 attacks against target in the USA.
+Find out more at [9/11 attacks](https://www.britannica.com/event/September-11-attacks)
 
 Generally for the dataset, they were a total of `5268 Accidents` resulting in about `153K Fatalities` spanning a period of `102` years.
 
 
+---
+
+# Insight
+
+Even so the number of accidents and fatalities is increasing, the number of flights is also increasing. And we could actually see that the ratio of fatalities/total amount of passengers trending down (for 2000s) see figure 7 below. However we can not make decisions about any Operator like "which airline is much safer to flight with" without knowledge of total amount flights. If Aeroflot has the largest number of accident doesn't mean that it is the worse to fly with because it might have the largest amount of flights.
+
+| Figure 7 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180879338-48d52f6a-7041-4aa5-b258-b2c50c8edc2a.png) |
 
 
+---
 
-
-
-
+# Limitation
