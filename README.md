@@ -8,12 +8,12 @@
 
 - [Introduction](https://github.com/globalsmile/Airline-Analysis#introduction)
 - [Problem Statement](https://github.com/globalsmile/Airline-Analysis#Problem-Statement)
-- [Data Sourcing](https://github.com/globalsmile/Airline-Analysis##Data-Sourcing)
-- [Data Transformation](https://github.com/globalsmile/Airline-Analysis##Data-Transformation)
-- [Data Modeling](https://github.com/globalsmile/Airline-Analysis##Data-Modeling)
-- [Data Visualization](https://github.com/globalsmile/Airline-Analysis##Data-Visualization)
-- [Data Analysis](https://github.com/globalsmile/Airline-Analysis##Data-Analysis)
-- [Insights](https://github.com/globalsmile/Airline-Analysis##Insights)
+- [Data Sourcing](https://github.com/globalsmile/Airline-Analysis#Data-Sourcing)
+- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Data-Transformation)
+- [Data Modeling](https://github.com/globalsmile/Airline-Analysis#Data-Modeling)
+- [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
+- [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
+- [Insights](https://github.com/globalsmile/Airline-Analysis#Insights)
 
 ---
 
@@ -34,14 +34,14 @@ However we will also try to find answers to the following questions:
 - what is the number of crashes by the type of aircraft?
 - How is the airplane crash geographically distributed?
 
-## Data Sourcing
+# Data Sourcing
 This Dataset was created on Kaggle in September 2016 but the original version was hosted by Open Data by Socrata at:
 https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from `1908-09-17 to 2009-06-08`
 
 Data:  Data can be accessed from this link  https://aka.ms/30DLDATGitHubRepo Locate project folder and download the csv file.
 The dataset contains `13 columns and 5268 rows` of data.
 
-## Data Transformation
+# Data Transformation
 For the purpose of this analysis, Microsoft Power BI was used to transform the data.
 
 Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
@@ -111,5 +111,5 @@ The date table was named `Calender` and the flight column was renamed to `Flight
 
 ---
 
-## Data Modeling
+# Data Modeling
 
