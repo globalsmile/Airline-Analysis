@@ -158,12 +158,22 @@ Data visualization for the dataset was done in two folds:
 
 # Data Analysis
 
-For [Figure 1](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png), a measure was created using the DAX `Total Fatalities = SUM(Airplane_Crashes_and_Fatalities_since_1908[Aboard] + SUM(Airplane_Crashes_and_Fatalities_since_1908[Ground])` to aggregrate the total number of fatalities for each year.
+- For [Figure 1](https://user-images.githubusercontent.com/106287208/180833146-0c593368-94fd-4550-9177-cec32cc32ab0.png), a measure was created using the DAX `Total Fatalities = SUM(Airplane_Crashes_and_Fatalities_since_1908[Aboard] + SUM(Airplane_Crashes_and_Fatalities_since_1908[Ground])` to aggregrate the total number of fatalities for each year.
 
 see Figure 3 below:
 | Figure 3 |
 | ----------- |
 | ![image](https://user-images.githubusercontent.com/106287208/180865767-0c9d6bf9-6032-4ec0-a932-39544596880c.png) |
+
+- From [Figure 2](https://user-images.githubusercontent.com/106287208/180864176-aee4c729-d6de-41e8-b2ca-68192671476c.png), It looks like Aeroflot has the most number of accident for all the time.
+
+See Figure 4 below:
+| Figure 4 |
+| ----------- |
+| ![image](https://user-images.githubusercontent.com/106287208/180868606-2e646efe-418c-41bb-982e-3e1268f1d761.png) |
+
+
+
 
 
 
