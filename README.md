@@ -46,7 +46,7 @@ For the purpose of this analysis, Microsoft Power BI was used to transform the d
 
 Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
 
-In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
+- In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
 
 The table below shows the column names and their description:
 | Column Name | Description |
@@ -65,7 +65,7 @@ The table below shows the column names and their description:
 | Ground | Represnts the total number of people killed on the ground by the aircraft |
 | Summary | Contains brief description of the accident and cause if known |
 
-To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
+- To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
 
 The table below shows the number of missing values in each of the columns:
 | Column Name | No. of missing values |
@@ -83,3 +83,19 @@ The table below shows the number of missing values in each of the columns:
 | Fatalities | 0 |
 | Ground | 0 |
 | Summary | 59 |
+
+- To account for the missing values, each column containing a missing value had to be manipulated.
+
+The table below shows each of the column with a missing value and the kind of manipulation that was done:
+| Column Name | Data manipulation |
+| ----------- | ----------- |
+| Time | Replaced the missing values with an arbitrary time values - (00:00) |
+| Location | Replaced the missing values with 'unknown'|
+| Operator | Replaced the missing values with 'unknown' |
+| Flight | Replaced the missing values with 'unknown' |
+| Type | Replaced the missing values with 'unknown' |
+| Registration | Replaced the missing values with 'unknown' |
+| Cn/Ln | Replaced the missing values with 'unknown' |
+| Summary | Replaced the missing values with 'unknown' |
+
+
