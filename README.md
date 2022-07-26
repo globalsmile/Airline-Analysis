@@ -15,6 +15,8 @@
 - [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
 - [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
 - [Insights](https://github.com/globalsmile/Airline-Analysis#Insight)
+- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Limitation)
+- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#References)
 
 ---
 
@@ -207,3 +209,16 @@ Even so the number of accidents and fatalities is increasing, the number of flig
 ---
 
 # Limitation
+
+Perhaps, one of the challenges on working on this dataset was the high number of columns to work with. And each column having more than 10 distinct levels. Decomposing them into a smaller number of meaningful levels would require help from a subject matter expert. Besides this, the dataset contained a huge number of missing values in some of the columns. Inputing them would be bottleneck to the primary memory. see [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Data-Transformation) above.
+
+---
+
+# References
+
+I'll like to give credits to:
+
+https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908
+https://www.kaggle.com/code/ruslankl/airplane-crashes-data-visualization
+https://www.kaggle.com/datasets/cgurkan/airplane-crash-data-since-1908/discussion/175557
+https://duttashi.github.io/blog/aircraft-crash-survival/
