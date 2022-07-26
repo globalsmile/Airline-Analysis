@@ -227,7 +227,7 @@ https://www.kaggle.com/datasets/cgurkan/airplane-crash-data-since-1908/discussio
 
 https://duttashi.github.io/blog/aircraft-crash-survival/
 
-https://unsplash.com/s/photos/plane-crash (for the image above)
+https://unsplash.com/s/photos
 
 ---
 
