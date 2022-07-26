@@ -217,8 +217,6 @@ Perhaps, one of the challenges on working on this dataset was the high number of
 
 # References
 
-I'll like to give credits to:
-
 https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908
 
 https://www.kaggle.com/code/ruslankl/airplane-crashes-data-visualization
