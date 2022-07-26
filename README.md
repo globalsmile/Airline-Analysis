@@ -15,8 +15,8 @@
 - [Data Visualization](https://github.com/globalsmile/Airline-Analysis#Data-Visualization)
 - [Data Analysis](https://github.com/globalsmile/Airline-Analysis#Data-Analysis)
 - [Insights](https://github.com/globalsmile/Airline-Analysis#Insight)
-- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#Limitation)
-- [Data Transformation](https://github.com/globalsmile/Airline-Analysis#References)
+- [Limitation](https://github.com/globalsmile/Airline-Analysis#Limitation)
+- [References](https://github.com/globalsmile/Airline-Analysis#References)
 
 ---
 
