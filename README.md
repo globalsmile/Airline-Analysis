@@ -17,6 +17,7 @@
 - [Insights](https://github.com/globalsmile/Airline-Analysis#Insight)
 - [Limitation](https://github.com/globalsmile/Airline-Analysis#Limitation)
 - [References](https://github.com/globalsmile/Airline-Analysis#References)
+- [Shareable link](https://github.com/globalsmile/Airline-Analysis#Shareable-Link)
 
 ---
 
@@ -227,3 +228,9 @@ https://www.kaggle.com/datasets/cgurkan/airplane-crash-data-since-1908/discussio
 https://duttashi.github.io/blog/aircraft-crash-survival/
 
 https://unsplash.com/s/photos/plane-crash (for the image above)
+
+---
+
+# Shareable Link
+
+You can interact with the report here: 
