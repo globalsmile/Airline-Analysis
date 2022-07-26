@@ -219,6 +219,11 @@ Perhaps, one of the challenges on working on this dataset was the high number of
 I'll like to give credits to:
 
 https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908
+
 https://www.kaggle.com/code/ruslankl/airplane-crashes-data-visualization
+
 https://www.kaggle.com/datasets/cgurkan/airplane-crash-data-since-1908/discussion/175557
+
 https://duttashi.github.io/blog/aircraft-crash-survival/
+
+https://unsplash.com/s/photos/plane-crash (for the image above)
