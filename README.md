@@ -52,7 +52,7 @@ Data transformation was done in Power Query and the datasets were loaded into Mi
 
 - In Power query the table that contains the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It consist of `13 columns and 5268 rows` of observations.
 
-The table below shows the column names and their description:
+The tabulation below shows the column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
 | Date | Represents the date of the accident |
@@ -71,7 +71,7 @@ The table below shows the column names and their description:
 
 - To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
 
-The table below shows the number of missing values in each of the columns:
+The tabulation below shows the number of missing values in each of the columns:
 | Column Name | No. of missing values |
 | ----------- | ----------- |
 | Date | 0 |
@@ -90,7 +90,7 @@ The table below shows the number of missing values in each of the columns:
 
 - To account for the missing values, each column containing a missing value had to be manipulated.
 
-The table below shows each of the column with a missing value and the kind of manipulation that was done:
+The tabulation below shows each of the column with a missing value and the kind of manipulation that was done:
 | Column Name | Data manipulation |
 | ----------- | ----------- |
 | Time | Replaced the missing values with an arbitrary time values - (00:00) |
