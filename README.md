@@ -42,17 +42,15 @@ This Dataset was created on Kaggle in September 2016 but the original version wa
 https://opendata.socrata.com/Government/Airplane-Crashes-and-Fatalities-Since-1908/q2te-8cvq (no longer available). The dataset contains data of airplane accidents involving civil, commercial and military transport worldwide from `1908-09-17 to 2009-06-08`
 
 Data:  Data can be accessed from this link  https://aka.ms/30DLDATGitHubRepo Locate project folder and download the csv file.
-The dataset contains `13 columns and 5268 rows` of data.
+The dataset consists of `13 columns and 5268 rows` of observation.
 
 ---
 
 # Data Transformation
 
-For the purpose of this analysis, Microsoft Power BI was used to transform the data.
+Data transformation was done in Power Query and the datasets were loaded into Microsoft Power BI Desktop for modeling.
 
-Data transformation begins in Power query after the data has been loaded into Microsoft Power BI.
-
-- In Power query the table containing the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It contains `13 columns and 5268 rows` data we will be working with.
+- In Power query the table that coontains the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It consist of `13 columns and 5268 rows` of observations.
 
 The table below shows the column names and their description:
 | Column Name | Description |
