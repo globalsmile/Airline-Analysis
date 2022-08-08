@@ -50,7 +50,7 @@ The dataset consists of `13 columns and 5268 rows` of observation.
 
 Data transformation was done in Power Query and the datasets were loaded into Microsoft Power BI Desktop for modeling.
 
-- In Power query the table that coontains the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It consist of `13 columns and 5268 rows` of observations.
+- In Power query the table that contains the dataset is named `Airplane_Crashes_and_Fatalities_since_1908`. It consist of `13 columns and 5268 rows` of observations.
 
 The table below shows the column names and their description:
 | Column Name | Description |
