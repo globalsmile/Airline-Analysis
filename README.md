@@ -69,7 +69,8 @@ The tabulation below shows the column names and their description:
 | Ground | Represnts the total number of people killed on the ground by the aircraft |
 | Summary | Contains brief description of the accident and cause if known |
 
-- To clean the data, power query was used to check the column's profile, quality, and distribution. it was found out that some columns were missing some values.
+Data Cleaning was done in power query:
+- Checking the column's profile, quality, and distribution. it was found out that some columns were missing some values.
 
 The tabulation below shows the number of missing values in each of the columns:
 | Column Name | No. of missing values |
