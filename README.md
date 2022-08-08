@@ -57,11 +57,11 @@ The tabulation below shows the column names and their description:
 | ----------- | ----------- |
 | Date | Represents the date of the accident |
 | Time | Represents the time(local) of the accident in 24hrs and in the format hh:mm |
-| Location | Represents the location of the accident |
-| Operator | Represents the airline or the operator of the aircraft |
+| Location | Describes the location of the accident |
+| Operator | Describes the airline or the operator of the aircraft |
 | Flight | Represents the flight ID assigned by the aircraft operator |
-| Route | Represents the  complete or partial route flown prior to the accident |
-| Type | Represents the aircraft type |
+| Route | Describes the  complete or partial route flown prior to the accident |
+| Type | Describes the aircraft type |
 | Registration | Represents ICAO registration of the aircraft |
 | Cn/Ln | Represents the construction or serial number/line or fuselage number |
 | Aboard | Represents the total number of people aboard the plane |
