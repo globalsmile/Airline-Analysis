@@ -130,7 +130,7 @@ For `Day`, we used the DAX expression `QUARTER(Calender[Dates])`
 For `Day`, we used the DAX expression `YEAR(Calender[Dates])`
 
 - An hierarchy was created in the `Calender` table to include the following columns: `Day`,` Month`, `Quarter`, `Year`
-- The `Calender` table was then marked as the official date table in the dataset.
+- The `Calender` table was marked as the official date table in the dataset.
 - To reference the date and time in the `Airplane_Crashes_and_Fatalities_since_1908` table more accurately, a `one-to-many (*:1) relationship` was created between the 
 `Airplane_Crashes_and_Fatalities_since_1908` and the `Calender` table using the `Dates` column in each of the tables.
 
